@@ -1,0 +1,116 @@
+{
+    "elliptical_fins": {},
+    "environment": {
+        "base_pressure": null,
+        "base_temperature": null,
+        "date": null,
+        "elevation": 0.0,
+        "geodetic_method": "spherical",
+        "latitude": 28.61,
+        "longitude": -80.6,
+        "wind_average": 2.0,
+        "wind_turbulence": 0.1
+    },
+    "flight": {
+        "heading": 90.0,
+        "inclination": 90.0,
+        "rail_length": 1.0
+    },
+    "id": {
+        "comment": null,
+        "designer": null,
+        "filepath": "/content/drive/MyDrive/ModSim/RocketSerializer/Input/rocket.ork",
+        "rocket_name": "Test bed rocket V2"
+    },
+    "motors": {
+        "center_of_dry_mass_position": 0,
+        "coordinate_system_orientation": "nozzle_to_combustion_chamber",
+        "dry_inertia": [
+            0,
+            0,
+            0
+        ],
+        "dry_mass": 0,
+        "grain_density": 1320.1669706547736,
+        "grain_initial_height": 0.568,
+        "grain_initial_inner_radius": 0.0135,
+        "grain_number": 1,
+        "grain_outer_radius": 0.027,
+        "grain_separation": 0,
+        "grains_center_of_mass_position": 0,
+        "nozzle_position": -0.284,
+        "nozzle_radius": 0.02025,
+        "position": 1.790762422360248,
+        "throat_radius": 0.0135,
+        "thrust_source": "/content/drive/MyDrive/ModSim/RocketSerializer/Output/testbedrocketV2/thrust_source.csv"
+    },
+    "nosecones": {
+        "base_radius": 0.051053999999999995,
+        "kind": "Von Karman",
+        "length": 0.381,
+        "name": "Nose Cone",
+        "position": 0.0
+    },
+    "parachutes": {
+        "0": {
+            "area": 1.824146924750992,
+            "cd": 1.5,
+            "cds": 2.736220387126488,
+            "deploy_altitude": 304.8,
+            "deploy_delay": 0.0,
+            "deploy_event": "altitude",
+            "name": "Recon Recovery 60\" (Estimated Values)"
+        },
+        "1": {
+            "area": 0.29186350796015864,
+            "cd": 1.5,
+            "cds": 0.437795261940238,
+            "deploy_altitude": null,
+            "deploy_delay": 0.0,
+            "deploy_event": "apogee",
+            "name": "Recon Recovery 24\" (Estimated Values)"
+        }
+    },
+    "rail_buttons": {},
+    "rocket": {
+        "center_of_mass_without_propellant": 1.174,
+        "coordinate_system_orientation": "nose_to_tail",
+        "drag_curve": "/content/drive/MyDrive/ModSim/RocketSerializer/Output/testbedrocketV2/drag_curve.csv",
+        "inertia": [
+            0.015,
+            0.015,
+            2.427
+        ],
+        "mass": 9.447,
+        "radius": 0.051053999999999995
+    },
+    "stored_results": {
+        "burnout_stability_margin": 3.478,
+        "flight_time": 129.288,
+        "ground_hit_velocity": 6.898,
+        "launch_rod_velocity": 13.288,
+        "max_acceleration": 88.67,
+        "max_altitude": 1609.393,
+        "max_mach": 0.537,
+        "max_stability_margin": 3.497,
+        "max_thrust": 1029.088,
+        "max_velocity": 182.072,
+        "min_stability_margin": 0.663,
+        "time_to_apogee": 18.415
+    },
+    "tails": {},
+    "trapezoidal_fins": {
+        "0": {
+            "cant_angle": 0.0,
+            "name": "Trapezoidal Fin Set",
+            "number": 4,
+            "position": 2.159,
+            "root_chord": 0.127,
+            "section": "airfoil",
+            "span": 0.07619999999999999,
+            "sweep_angle": null,
+            "sweep_length": 0.05489895944181254,
+            "tip_chord": 0.07619999999999999
+        }
+    }
+}
